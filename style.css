@@ -1,0 +1,75 @@
+body{
+    background-color:#dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+.form {
+    background-color: #fff;
+    width: 340px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-icon{
+    background-color: #3f8af3;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20px);
+}
+.user-icon img{
+    width: 80%;
+    height:80%;
+}
+.text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    transform: translateY(10px);
+}
+.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login input{
+    padding: 9px;
+    margin: 5px;
+}
+.login input[type=text], input[type=password] {
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login input[type=button] {
+    width: 80%;
+    border: none;
+    background-color: #3f8af3;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.suggestions{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3px;
+}
+.suggestions .forgot:hover {    
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
